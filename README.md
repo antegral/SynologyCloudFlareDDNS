@@ -1,6 +1,6 @@
 SynologyCloudFlareDDNS 
 ========================
-> **Forked from namukcom/SynologyCloudFlareDDNS**<br/>
+> **Forked from [namukcom/SynologyCloudFlareDDNS](https://github.com/namukcom/SynologyCloudFlareDDNS)**<br/>
 > I cloned from the original to get the code from my repository due to security concerns.<br/>
 > (Of course, I don't expect the original owner to do that, but just in case :>)<br/>
 > <br/>

@@ -1,5 +1,10 @@
-SynologyCloudFlareDDNS
+SynologyCloudFlareDDNS 
 ========================
+> **Forked from namukcom/SynologyCloudFlareDDNS**<br/>
+> I cloned from the original to get the code from my repository due to security concerns.<br/>
+> (Of course, I don't expect the original owner to do that, but just in case :>)<br/>
+> <br/>
+> So, If you want to use this code, please fork the original repository.
 
 Purpose & Pros
 ---------------
@@ -33,7 +38,7 @@ Enabled: Checked
 ```
 [Task Settings Tab]
 [Run Command] User-defined script
-    curl https://raw.githubusercontent.com/namukcom/SynologyCloudflareDDNS/master/setddns.py | python3 -
+    curl https://raw.githubusercontent.com/antegral/SynologyCloudflareDDNS/master/setddns.py | python3 -
 ```
 
 3. Press OK
@@ -70,7 +75,7 @@ Installation - Another way (DSM 7.0- or  Python3 NOT installed)
 1. Connect via SSH. (can be activated in DSM)
 2. Execute 
 ```
-sudo curl https://raw.githubusercontent.com/namukcom/SynologyCloudflareDDNS/master/cloudflare.php -o /usr/syno/bin/ddns/cloudflare.php && sudo chmod 755 /usr/syno/bin/ddns/cloudflare.php
+sudo curl https://raw.githubusercontent.com/antegral/SynologyCloudflareDDNS/master/cloudflare.php -o /usr/syno/bin/ddns/cloudflare.php && sudo chmod 755 /usr/syno/bin/ddns/cloudflare.php
 ```
 
 3. Add some notes to end of DDNS config file. You can use your preferred text-editor. *(sudo vi /etc.defaults/ddns_provider.conf)*
